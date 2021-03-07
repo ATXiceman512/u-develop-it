@@ -43,3 +43,9 @@ UPDATE candidates
 SET industry_connected = 1
 WHERE id = 3;
 */
+
+CREATE TABLE parties (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    description TEXT
+);
