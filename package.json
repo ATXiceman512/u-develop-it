@@ -8,7 +8,7 @@
     "migrate": "sqlite3 db/election.db < db/schema.sql",
     "seed": "sqlite3 db/election.db < db/seeds.sql",
     "db": "sqlite3 db/election.db",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/ATXiceman512/u-develop-it#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
